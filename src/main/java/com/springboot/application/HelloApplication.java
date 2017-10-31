@@ -24,7 +24,9 @@ public class HelloApplication {
 	@RequestMapping("hello")
 	@ResponseBody
 	public String hello() {
+		system.out.println("1");
 		return "Hello World！";
+		
 	}
 
 	public static void main(String[] args) {
